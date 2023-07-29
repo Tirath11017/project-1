@@ -1,0 +1,25 @@
+#project Fibonacci sequence
+nterms = 15
+
+n1, n2 = 0, 1
+count = 0
+print("Fibonacci sequence:")
+while count < nterms:
+       print(n1)
+       a = n1 + n2 
+       n1 = n2
+       n2 = a
+       count += 1
+#powers of 2
+nterms = 15
+
+n1, n2 = 0, 1
+count = 0
+print("powers of 2:")
+while count < nterms:
+       print(n1)
+       
+       n1 = n2
+       a = n1 + n2 
+       n2 = a
+       count += 1
