@@ -1,0 +1,9 @@
+try:
+    x=tuple(map(int,input("List of Numbers: ").split()))
+    y=0 
+    print("positive numbers")
+    while y<=len(x) :
+        if x[y]>=0:print(x[y])
+        y=y+1
+        if y==len(x):break
+except:print("please give integers only")
